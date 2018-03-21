@@ -76,6 +76,8 @@
     }
 
 
-    nextQuestion();
+    document.getElementById('button').addEventListener("click" ,function () {
+        nextQuestion();
+    })
 
 }());

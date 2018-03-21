@@ -72,10 +72,16 @@
             questions[n].promptAnswer();
         }
 
-        setTimeout(promptCall, 1000);
+        setTimeout(promptCall, 150);
+    }
+    
+    document.onkeydown = function (e) {
+      e = e || window.event;
+      
+      if (e.keyCode === "123") {
+        nextQuestion();
+      }
     }
 
-
-    nextQuestion();
 
 }());

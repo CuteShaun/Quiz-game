@@ -72,7 +72,7 @@
             questions[n].promptAnswer();
         }
 
-        setTimeout(promptCall, 300);
+        setTimeout(promptCall, 1000);
     }
 
 

@@ -2,4 +2,4 @@
 Console quiz game
 
 - Start: F12;
-- Exit: exit;
+- Exit: exit.

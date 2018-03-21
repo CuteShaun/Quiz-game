@@ -75,9 +75,7 @@
         setTimeout(promptCall, 150);
     }
 
-
     document.getElementById('button').addEventListener("click" ,function () {
         nextQuestion();
     })
-
 }());

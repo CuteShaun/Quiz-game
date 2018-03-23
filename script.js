@@ -76,6 +76,7 @@
     }
 
     document.getElementById('button').addEventListener("click" ,function () {
+        score = 0;
         nextQuestion();
     })
 }());
